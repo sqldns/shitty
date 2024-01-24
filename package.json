@@ -2,11 +2,15 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vaibhav1337.github.io/shitty",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
+
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
