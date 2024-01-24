@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Hi, I m Vaibhav Tripathi, a 15y/o Self taught full stack web developer and QA Tester from India. I love to create interactive and responsive web applications.
+            Hi, I m Vaibhav Tripathi, a 15y/o Self taught full stack web developer and QA Tester(learning rn) from India. I love to create interactive and responsive web applications.
           </p>
           <div>
             <Link

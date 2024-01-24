@@ -19,7 +19,7 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Education",
+    title: "From",
     id: "education",
     content: (
       <ul className="list-disc pl-2">
