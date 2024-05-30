@@ -1,1 +1,1 @@
-uwu
+Just a portfolio web made by me. duh
