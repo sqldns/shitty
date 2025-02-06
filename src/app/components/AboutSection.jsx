@@ -15,6 +15,7 @@ const TAB_DATA = [
         <li>JavaScript</li>
         <li>React</li>
         <li>Typescript</li>
+        <li>Lua</li>
       </ul>
     ),
   },
@@ -34,6 +35,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>AWS Cloud Practitioner</li>
         <li>Google Professional Cloud Developer</li>
+        <li>CyberSec Expert verified from TryHackme</li>
       </ul>
     ),
   },
@@ -56,12 +58,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a 15y/o full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with Dotnet, JavaScript, React, Redux, Node.js, Apache,
-            HTML,CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I’m a 15-year-old full-stack web developer passionate about building interactive, responsive, and secure web applications. I work with .NET, JavaScript, React, Redux, Node.js, Apache, HTML, CSS, and Git, and I’m always eager to learn and grow.I also have a strong interest in cybersecurity, which helps me develop applications with a security-first approach. I enjoy collaborating with others to create impactful projects and solve real-world problems.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
