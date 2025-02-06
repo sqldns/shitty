@@ -60,14 +60,16 @@ const HeroSection = () => {
             </Link>
             {/* TryHackMe Badge */}
             <iframe
-              src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3640863"
-              style={{
-                border: "none",
-                width: "150px",
-                height: "150px",
-              }}
-              title="TryHackMe Badge"
-            ></iframe>
+  src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3640863"
+  style={{
+    border: "none",
+    width: "150px",
+    height: "150px",
+    overflow: "hidden", // Prevents scrollbars
+  }}
+  scrolling="no" // Disables scrolling
+  title="TryHackMe Badge"
+></iframe>
           </div>
         </motion.div>
 
