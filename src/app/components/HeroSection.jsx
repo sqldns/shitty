@@ -9,7 +9,7 @@ const HeroSection = () => {
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        {/* Left Column */}
+        {/* Left Text Section */}
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -38,35 +38,47 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Am a full-stack web developer and aspiring QA tester, CyberSec Enthusiast from India.
-            I love building interactive, responsive, and user-friendly web applications that solve real-world problems.
+            Am a full-stack web developer and aspiring QA tester, CyberSec
+            Enthusiast from India. I love building interactive, responsive, and
+            user-friendly web applications that solve real-world problems.
           </p>
-          <div className="flex flex-col sm:flex-row items-center sm:space-x-4">
+          {/* Buttons and Badge Section */}
+          <div className="flex items-center space-x-4">
             <Link
               href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+              className="px-6 inline-block py-3 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Connect wm!
             </Link>
             <Link
               href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3 sm:mt-0"
+              className="px-1 inline-block py-1 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Resume
               </span>
             </Link>
+            {/* TryHackMe Badge */}
+            <iframe
+              src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3640863"
+              style={{
+                border: "none",
+                width: "150px",
+                height: "150px",
+              }}
+              title="TryHackMe Badge"
+            ></iframe>
           </div>
         </motion.div>
 
-        {/* Right Column */}
+        {/* Right Image Section */}
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
         >
-          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative mx-auto">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/hero-image.png"
               alt="hero image"
@@ -74,34 +86,6 @@ const HeroSection = () => {
               width={300}
               height={300}
             />
-          </div>
-          {/* Container for buttons and TryHackMe badge */}
-          <div className="flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-4 space-y-4 sm:space-y-0 mt-4">
-            <Link
-              href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
-            >
-              Connect wm!
-            </Link>
-            <Link
-              href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Resume
-              </span>
-            </Link>
-            <iframe
-              src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3640863"
-              style={{
-                border: "none",
-                width: "150px",
-                height: "150px",
-                overflow: "hidden", // Prevents scrollbars if possible
-              }}
-              scrolling="no"
-              title="TryHackMe Badge"
-            ></iframe>
           </div>
         </motion.div>
       </div>
