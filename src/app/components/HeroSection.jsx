@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Am a full-stack web developer and aspiring QA tester, **CyberSec Enthusiast** from India. I love building interactive, responsive, and user-friendly web applications that solve real-world problems. Passionate about learning and creating, I’m always exploring new technologies and improving my craft.
+            Am a full-stack web developer and aspiring QA tester,CyberSec Enthusiast from India. I love building interactive, responsive, and user-friendly web applications that solve real-world problems.
           </p>
           <div>
             <Link
