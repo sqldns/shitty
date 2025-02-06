@@ -63,7 +63,7 @@ const HeroSection = () => {
   src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3640863"
   style={{
     border: "none",
-    width: "150px",
+    width: "300px",
     height: "150px",
     overflow: "hidden", // Prevents scrollbars
   }}
