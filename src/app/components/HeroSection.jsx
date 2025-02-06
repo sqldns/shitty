@@ -71,6 +71,32 @@ const HeroSection = () => {
               height={300}
             />
           </div>
+          <div className="flex items-center space-x-4">
+  <Link
+    href="#contact"
+    className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+  >
+    Connect wm!
+  </Link>
+  <Link
+    href="/"
+    className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+  >
+    <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+      Resume
+    </span>
+  </Link>
+  {/* Add the iframe here */}
+  <iframe
+    src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3640863"
+    style={{
+      border: "none",
+      width: "150px",
+      height: "150px", // Adjust the size to fit your design
+    }}
+    title="TryHackMe Badge"
+  ></iframe>
+</div>
         </motion.div>
       </div>
     </section>
